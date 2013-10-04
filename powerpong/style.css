@@ -1,0 +1,51 @@
+/* Custom stylesheet */
+
+/* BASE STYLES
+------------------------------------------------ */
+
+body {
+	font-family: 'Snowburst One', tahoma, arial;
+	font-size: 16px;
+}
+
+/* GAME
+-------------------------------------------------- */
+
+#container {
+	border: 1px solid #000;
+	margin: 15px auto;
+	margin-left: 250px;
+	width: 840px;
+	height: 300px;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	-webkit-touch-callout: none;
+	-webkit-user-drag: none;
+}
+
+div {
+	display: inline-block;
+	text-decoration: none;
+	color: #000;
+	width: 175px;
+	height: 75px;
+	margin: 30px;
+	text-align: center;
+	font-size: 22px;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+#one {
+	background-color: #00ff00;
+}
+
+#two {
+	background-color: #ff0000;
+}
