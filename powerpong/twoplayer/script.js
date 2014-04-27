@@ -2,7 +2,7 @@
 var paddle1 = {
 	x: 250,
 	y: 10,
-	width: 50,
+	width: 75,
 	height: 10,
 	color: "blue",
 	draw: function(){
@@ -13,7 +13,7 @@ var paddle1 = {
 var paddle2 = {
 	x: 250,
 	y: 624,
-	width: 50,
+	width: 75,
 	height: 10,
 	color: "red",
 	draw: function(){
